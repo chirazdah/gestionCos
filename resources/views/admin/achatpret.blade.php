@@ -23,7 +23,7 @@
        <thead class="thead-light">
          <tr>
             <th scope="col">id</th>
-            <th scope="col">id_operation</th>
+            <th scope="col">matricule</th>
             <th scope="col">type</th>
             <th scope="col">titre</th>
             <th scope="col">somme max</th>
@@ -32,10 +32,10 @@
          </tr>
        </thead>
        <tbody>
-          @foreach($achatpret as $achatpret)
+          @foreach($achat_prets as $achatpret)
             <tr>
               <th scope="row">{{$achatpret->id_achat}}</th>
-              <td>{{$achatpret->operation()->pluck('matricule')}}</td>
+              <td>{{$achatpret->matricule}}</td>
               <td>{{$achatpret->type}}</td>
               
               <td>{{$achatpret->titre}}</td>

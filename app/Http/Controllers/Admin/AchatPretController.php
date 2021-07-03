@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\achat_pret;
-use DB;
+use Illuminate\Support\Facades\DB; 
 
 class AchatPretController extends Controller
 {
@@ -22,8 +22,15 @@ class AchatPretController extends Controller
     
     public function index()
     {
-        $achatpret=achat_pret::all();
-        return view('admin.achatpret')->with('achatpret',$achatpret);
+
+        $achat_prets = DB::table('achat_prets')
+                    ->join('operations','achat_prets.id_operation','operations.id')
+                    ->select('achat_prets.*','operations.matricule');
+
+        //$achatpret=achat_pret::all();
+        return view('admin.achatpret', compact('achat_prets'));
+        
+        //->with('achatpret',$achatpret);
     }
 
     /**

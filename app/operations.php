@@ -27,7 +27,7 @@ class operations extends Model
     }
 
     public function achat_pret(){
-        return $this->hasOne('App\achat_pret');
+        return $this->hasOne('App\achat_pret', 'id','id_operation');
     }
 
     public function aide_sociale(){

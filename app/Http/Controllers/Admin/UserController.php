@@ -27,6 +27,7 @@ class UserController extends Controller
         $users=User::all();
         return view('admin.users')->with('users',$users); 
     }
+    
     public function createuser(){
         return view ('admin.createuser');
     }

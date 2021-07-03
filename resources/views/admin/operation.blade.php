@@ -31,7 +31,7 @@
           @foreach($operation as $operation)
             <tr>
               <th scope="row">{{$operation->id}}</th>
-              <td>{{$operation->employer()->get()->pluck('nom')}}</td>
+              <td>{{$operation->matricule}}</td>
               <td>{{$operation->date_benifice}}</td>
               <td>{{$operation->created_at}}</td>
               <td>{{$operation->updated_at}}</td>

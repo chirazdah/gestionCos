@@ -25,6 +25,10 @@ class EmployerController extends Controller
         return view('admin.employer')->with('employer',$employer);
     }
 
+    public function createemployer(){
+        return view ('admin.createemployer');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -43,7 +47,15 @@ class EmployerController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = array();
+        $data['nom'] = $request->nom;
+        $data['prenom'] = $request->prenom;
+        $data['etatsalaire'] = $request->etatsalaire;   
+        $data['situationfam'] = $request->situationfam;
+        
+
+        $user = DB::table('employers')->insert($data);
+        return redirect()->route('admin.employer.index');
     }
 
     /**

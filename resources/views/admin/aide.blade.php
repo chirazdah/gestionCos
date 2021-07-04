@@ -1,0 +1,47 @@
+@extends('layouts.master')
+
+
+@section('titre')
+   Table Aide Sociale
+@endsection
+
+@section('content')
+
+  <div class="col-lg-12 margin-tb">
+
+     <div class= "pull left">
+       <h5>Liste Aide</h5>
+     </div>
+     <div class ="pull right">
+       <a class = "btn btn-success "href ="{{route('admin.aide.createaide')}}">Ajouter Aide </a>
+     </div>
+  </div>
+  
+
+    
+  <table class="table">
+       <thead class="thead-light">
+         <tr>
+            <th scope="col">id</th>
+            <th scope="col">nom employer</th>
+            <th scope="col">prenom employer</th>
+
+           
+         </tr>
+       </thead>
+       <tbody>
+          @foreach($aides as $aide)
+            <tr>
+              <th scope="row">{{$aide->id_aide}}</th>
+              <td>{{$aide->nom}}</td>
+              <td>{{$aide->prenom}}</td>
+              
+            
+            </tr>
+         @endforeach
+   
+         </tbody>
+     </table>
+
+  
+@endsection

@@ -13,7 +13,7 @@
        <h5>Liste Des Employer</h5>
      </div>
      <div class ="pull right">
-       <a class = "btn btn-success "href ="">Ajouter Employer</a>
+       <a class = "btn btn-success "href ="{{route('admin.employer.createemployer')}}">Ajouter Employer</a>
        <a class = "btn btn-success "href ="">Importer Fichier </a>
      
   </div>
@@ -35,7 +35,6 @@
               <th scope="row">{{$employer->matricule}}</th>
               <td>{{$employer->nom}}</td>
               <td>{{$employer->prenom}}</td>
-              
               <td>{{$employer->situationfam}}</td>
               <td>{{$employer->etatsalaire}}</td>
             </tr>

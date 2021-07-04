@@ -15,8 +15,8 @@ class achat_pret extends Model
      {
          return $this->hasOne(paiement::class);
      }
-/*public function operation()
+     public function operation()
      {
         return $this->belongsTo('App\operations');
-     }*/
+     }
 }

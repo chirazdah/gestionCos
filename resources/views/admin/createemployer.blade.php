@@ -54,6 +54,14 @@
               </div>
 
          </div> 
+         <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class ="form-group">
+
+                <strong>Salaire: </strong>
+                <input type="float" name="salaire" class="form-control" placeholder="0.00">
+              </div>
+
+         </div> 
          <div class = "col-xs-12 col-sm-12 col-md-12">
              <button type="submit" class ="btn btn-primary"> Enregistrer</button>
 

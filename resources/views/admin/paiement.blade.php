@@ -13,7 +13,7 @@
        <h5>Liste Paiement</h5>
      </div>
      <div class ="pull right">
-       <a class = "btn btn-success "href ="">Ajouter Paiement</a>
+       
      </div>
   </div>
   

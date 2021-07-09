@@ -52,7 +52,7 @@ class EmployerController extends Controller
         $data['prenom'] = $request->prenom;
         $data['etatsalaire'] = $request->etatsalaire;   
         $data['situationfam'] = $request->situationfam;
-        
+        $data['salaire'] = $request->salaire;
 
         $user = DB::table('employers')->insert($data);
         return redirect()->route('admin.employer.index');

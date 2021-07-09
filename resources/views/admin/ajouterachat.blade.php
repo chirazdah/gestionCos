@@ -53,31 +53,6 @@
               </div>
 
          </div>
-
-         <div class="col-xs-6 col-sm-6 col-md-6">
-              <div class ="form-group">
-
-                <strong> Date Fin Prevue </strong>
-                <input type="date" name="date_fin_prevue" class="form-control" placeholder="date fin prevue ">
-              </div>
-
-         </div> 
-         <div class="col-xs-6 col-sm-6 col-md-6">
-              <div class ="form-group">
-
-                <strong> Date Fin Reel </strong>
-                <input type="date" name="date_fin_reel" class="form-control" placeholder="date fin reel ">
-              </div>
-
-         </div> 
-         <div class="col-xs-6 col-sm-6 col-md-6">
-              <div class ="form-group">
-
-                <strong> Date benifice </strong>
-                <input type="date" name="date_benifice" class="form-control" placeholder="date benifice ">
-              </div>
-
-         </div> 
          <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 

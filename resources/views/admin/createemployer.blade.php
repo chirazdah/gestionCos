@@ -10,7 +10,7 @@
   <div class="col-lg-12 margin-tb">
 
      <div class= "pull left">
-       <h2>Ajouter Un Employer</h2>
+       <h2>Ajouter Un Employé(e)</h2>
      </div>
      <div class ="pull right">
        <a class = "btn btn-success "  href ="{{ route('admin.employer.index')}}"> Back</a>
@@ -24,7 +24,7 @@
        <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 
-                <strong> Nom Employer: </strong>
+                <strong> Nom Employé(e): </strong>
                 <input type="text" name="nom" class="form-control" placeholder="nom">
               </div>
 
@@ -32,7 +32,7 @@
          <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 
-                <strong> Prenom Employer: </strong>
+                <strong> Prenom Employé(e): </strong>
                 <input type="text" name="prenom" class="form-control" placeholder="prenom">
               </div>
 

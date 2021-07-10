@@ -12,7 +12,7 @@
   <thead class="thead-light">
     <tr>
       <th scope="col">id</th>
-      <th scope="col">Roles</th>
+      <th scope="col">Roles </th>
     </tr>
   </thead>
   <tbody>

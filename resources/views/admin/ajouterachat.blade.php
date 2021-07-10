@@ -31,7 +31,7 @@
          <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 
-                <strong> Prenom : </strong>
+                <strong> Prénom : </strong>
                 <input type="text" name="prenom" class="form-control" placeholder="prenom">
               </div>
 
@@ -40,7 +40,7 @@
        <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 
-                <strong> Titre </strong>
+                <strong> Titre :</strong>
                 <input type="text" name="titre" class="form-control" placeholder="Titre">
               </div>
 
@@ -48,7 +48,7 @@
          <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 
-                <strong> Type </strong>
+                <strong> Type :</strong>
                 <input type="text" name="type" class="form-control" placeholder="type">
               </div>
 
@@ -56,7 +56,7 @@
          <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 
-                <strong> somme max</strong>
+                <strong>Somme :</strong>
                 <input type="float" name="somme_max" class="form-control" placeholder="somme">
               </div>
 

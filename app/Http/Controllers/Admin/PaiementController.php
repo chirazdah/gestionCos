@@ -15,7 +15,7 @@ class PaiementController extends Controller
      */
     public function index()
     {
-        $paiement=DB::select('Select pa.* , ap.id_achat, emp.* 
+        $paiement=DB::select('Select pa.* , ap.*, emp.* 
         from paiements pa , achat_prets ap, employers emp 
         where pa.id_achat = ap.id_achat
         And pa.matricule = emp.matricule');

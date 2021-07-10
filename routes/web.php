@@ -49,3 +49,4 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
     Route::get('createaide',"aideController@createaide")->name('aide.createaide');
     Route::post('store',"aideController@store")->name('aide.store');
 });
+

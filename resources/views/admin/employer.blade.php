@@ -22,18 +22,19 @@
     <table class="table">
        <thead class="thead-light">
          <tr>
-            <th scope="col">matricule</th>
-            <th scope="col">nom</th>
+            <th scope="col">Matricule</th>
+            <th scope="col">Nom</th>
             <th scope="col">Prenom</th>
-            <th scope="col">situation familiale</th>
-            <th scope="col">etat salaire</th>
+            <th scope="col">Situation Familiale</th>
+            <th scope="col">Etat Salaire</th>
+
          </tr>
        </thead>
        <tbody>
           @foreach($employer as $employer)
             <tr>
               <th scope="row">{{$employer->matricule}}</th>
-              <td>{{$employer->nom}}</td>
+              <td>{{$employé->nom}}</td>
               <td>{{$employer->prenom}}</td>
               <td>{{$employer->situationfam}}</td>
               <td>{{$employer->etatsalaire}}</td>

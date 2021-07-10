@@ -41,8 +41,8 @@ class LoginController extends Controller
     protected function redirectTo(){
         if (Auth::user()->roles->pluck('name')->contains('admin')){
             return'/admin/dashboard';
-        }elseif (Auth::user()->roles->pluck('name')->contains('President')){
-            return '/President/dashboard';
+        }elseif (Auth::user()->roles->pluck('name')->contains('president')){
+            return '/president/dashboard';
         }elseif(Auth::user()->roles->pluck('name')->contains('chef_personnel')){
             return'/chef_personnel/dashboard';
         }

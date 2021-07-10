@@ -22,11 +22,11 @@
   <table class="table">
        <thead class="thead-light">
          <tr>
-            <th scope="col">id</th>
-            <th scope="col">nom employer</th>
-            <th scope="col">prenom employer</th>
-            <th scope="col">titre</th>
-            <th scope="col">montant</th>
+            <th scope="col">Id</th>
+            <th scope="col">Nom Employé(e)</th>
+            <th scope="col">Prénom Employé(e)</th>
+            <th scope="col">Titre</th>
+            <th scope="col">Montant</th>
            
          </tr>
        </thead>

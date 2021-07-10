@@ -24,7 +24,7 @@
        <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 
-                <strong> Nom Role : </strong>
+                <strong> Role Description : </strong>
                 <input type="text" name="name" class="form-control" placeholder="Role Name">
               </div>
               <div class = "col-xs-12 col-sm-12 col-md-12">

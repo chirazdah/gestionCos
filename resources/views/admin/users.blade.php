@@ -21,11 +21,11 @@
     <table class="table">
        <thead class="thead-light">
          <tr>
-            <th scope="col">id</th>
-            <th scope="col">nom</th>
-            <th scope="col">email</th>
-            <th scope="col">role</th>
-            <th scope="col">action</th>
+            <th scope="col">Id</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Email</th>
+            <th scope="col">Role</th>
+            <th scope="col">Action</th>
          </tr>
        </thead>
        <tbody>
@@ -36,12 +36,12 @@
               <td>{{$user->email}}</td>
               <td>{{implode(' / ',$user->roles()->get()->pluck('name')->toArray())}}</td>
               <td>
-              <a href="{{ route ('admin.users.edit', $user->id )}} " ><button class="btn btn_primary">editer</button></a>
+              <a href="{{ route ('admin.users.edit', $user->id )}} " ><button class="btn btn_primary">Editer</button></a>
 
                <form action ="{{ route ('admin.users.destroy', $user->id )}}" method="POST"  class="d-inline" >
                @csrf
                @method('DELETE')
-               <button type="submit" class="btn btn_warning">supprimer</button>
+               <button type="submit" class="btn btn_warning">Supprimer</button>
                
                </form>
                </td>

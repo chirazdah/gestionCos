@@ -31,14 +31,14 @@
          <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 
-                <strong> Prenom : </strong>
+                <strong> Prénom : </strong>
                 <input type="text" name="prenom" class="form-control" placeholder="prenom">
               </div>
 
          </div>
 
        
-         <div class="col-xs-6 col-sm-6 col-md-6">ù
+         <div class="col-xs-6 col-sm-6 col-md-6">
           <select class="form-select"  name="titre" aria-label="Default select example">
                
                <option value="Prime naissance">Prime naissance</option>

@@ -24,7 +24,7 @@
        <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 
-                <strong> Nom Utilisateur: </strong>
+                <strong> Nom Utilisateur : </strong>
                 <input type="text" name="name" class="form-control" placeholder="nom">
               </div>
 
@@ -33,7 +33,7 @@
          <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 
-                <strong> email : </strong>
+                <strong> Email : </strong>
                 <input type="email" name="email" class="form-control" placeholder="email@email.com">
               </div>
 
@@ -41,7 +41,7 @@
          <div class="col-xs-6 col-sm-6 col-md-6">
               <div class ="form-group">
 
-                <strong> Password : </strong>
+                <strong> Mot De Passe : </strong>
                 <input type="password" name="password" class="form-control" placeholder="password">
               </div>
 

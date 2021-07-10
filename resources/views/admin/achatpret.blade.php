@@ -23,13 +23,12 @@
        <thead class="thead-light">
          <tr>
             <th scope="col">id</th>
-            <th scope="col">type</th>
-            <th scope="col">nom employer</th>
-            <th scope="col">prenom employer</th>
-            <th scope="col">titre</th>
-            <th scope="col">somme max</th>
-            <th scope="col">date fin prevue</th>
-            <th scope="col">date fin reel</th>
+            <th scope="col">Nom Employé(e)</th>
+            <th scope="col">Prénom Employé(e)</th>
+            <th scope="col">Type</th>
+            <th scope="col">Titre</th>
+            <th scope="col">Somme</th>
+            
          </tr>
        </thead>
        <tbody>
@@ -41,9 +40,7 @@
               <td>{{$achatpret->prenom}}</td>
               <td>{{$achatpret->titre}}</td>
               <td>{{$achatpret->somme_max}} DA</td>
-              <td>{{$achatpret->date_fin_prevue}}</td>
               
-              <td>{{$achatpret->date_fin_reel}}</td>
             </tr>
          @endforeach
    

@@ -63,43 +63,37 @@
           <li>
             <a href="./employer">
               <i class="now-ui-icons design_bullet-list-67"></i>
-              <p>Table Employer</p>
+              <p>Liste Des Employées</p>
             </a>
           </li>
           <li>
             <a href="./operation">
               <i class="now-ui-icons design_bullet-list-67"></i>
-              <p>Table Operation</p>
+              <p>Liste Des Operations</p>
             </a>
           </li>
           <li>
             <a href="./achatpret">
               <i class="now-ui-icons design_bullet-list-67"></i>
-              <p>Table Achat_Pret</p>
+              <p>Liste Des Achats et Prets</p>
             </a>
           </li>
           <li>
             <a href="./prime">
               <i class="now-ui-icons design_bullet-list-67"></i>
-              <p>Table Prime</p>
-            </a>
-          </li>
-          <li>
-            <a href="./justification">
-              <i class="now-ui-icons design_bullet-list-67"></i>
-              <p>Table Justification</p>
+              <p>Liste Des Primes </p>
             </a>
           </li>
           <li>
             <a href="./paiement">
               <i class="now-ui-icons design_bullet-list-67"></i>
-              <p>Table Paiement</p>
+              <p>Liste Des Paiements </p>
             </a>
           </li>
           <li>
             <a href="./aide">
               <i class="now-ui-icons design_bullet-list-67"></i>
-              <p>Table Aide_Sociale</p>
+              <p>Liste Des Aides Sociales</p>
             </a>
           </li>
         </ul>
@@ -117,7 +111,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="">Comission des oeuvre sociale</a>
+            <a class="navbar-brand" href="">Comission des oeuvres sociales</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
